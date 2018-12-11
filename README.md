@@ -14,4 +14,20 @@ values
 below
 median
 
-tried that and it didn't work. to be continued.. 
+Fixed the median function - now code plots the right password for level 2.
+
+-----
+
+Added Q3 solution in theusualsuspect.js
+in short - the file contains a csv and a hint file.
+
+create a db with the name shabak on local mongo db.
+import the csv to mongo using this line:
+
+mongoimport -d shabak -c logs --type csv --file log.csv --headerline
+
+then run the query supplied in theusualsuspect.js
+it will plot the ip's needed for the answer.
+
+Enjoy :)
+until next time!
